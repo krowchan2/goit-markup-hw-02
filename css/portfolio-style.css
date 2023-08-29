@@ -1,0 +1,91 @@
+ul{list-style: none;}
+.buttons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons :hover{ cursor: pointer;
+    background-color: blue;
+    box-shadow: 0 3px 0 rgb(221, 221, 221);
+}
+
+.button-all {
+    background-color: rgb(216, 225, 254);
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 2px;
+
+}
+.button-website {
+    background-color: rgb(216, 225, 254);
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 2px;
+    margin-left: 10px;
+
+}
+.button-app {
+    background-color: rgb(216, 225, 254);
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 2px;
+    margin-left: 10px;
+
+}
+.button-design {
+    background-color: rgb(216, 225, 254);
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 2px;
+    margin-left: 10px;
+
+}
+.button-marketing {
+    background-color: rgb(216, 225, 254);
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+a:focus {
+    color: beige;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+a::content {color: green;}
+
+body {
+    color: black;
+    font-family: 'roboto';
+}
+
+
+footer {
+    background-image: url(/images/background/dark-bg.png);
+    color: white;
+}
+
+.web {
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+.web :hover {
+    color: blue;
+    text-decoration: none;
+}

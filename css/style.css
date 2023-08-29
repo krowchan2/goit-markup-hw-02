@@ -1,0 +1,39 @@
+ul{list-style: none;}
+button {background-color: rgb(83, 83, 226); color: white;
+    border: none;
+    height: 30px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+a:focus {
+    color: beige;}
+
+a{text-decoration: none;}
+a:hover{color: blue;
+text-decoration: none;}
+
+body{color: black;
+font-family: 'roboto';}
+
+.hero {
+    background-image: url(/images/background/dark-bg.png);
+    color: white;
+    text-align: center;
+}
+.text {text-align: center;}
+
+button:focus{background-color: yellow;}
+
+.team {background-color: rgb(235, 243, 255);}
+
+footer{background-image: url(/images/background/dark-bg.png);
+color: white;}
+
+.web{
+    font-weight: bold;
+    color:blue;
+    cursor: pointer;
+}
+.web :hover{color: blue;
+text-decoration: none;} 
