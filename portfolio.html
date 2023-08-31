@@ -1,165 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="homework for goit" />
+    <title>Portfolio</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="homework for goit" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/portfolio-style.css" />
   </head>
-
   <body>
     <!-- Header Section-->
-
-    <header class="header" id="goit-markup-hw-01">
-      <a href="index.html"> <span class="web"> WEB</span></a
-      ><b>STUDIO</b>
-
-      <nav>
-        <ul>
+    <header class="header">
+      <nav class="nav">
+        <a href="portfolio.html" class="web">
+          <span class="web-span">WEB</span><b>STUDIO</b></a
+        >
+        <ul class="nav-list">
           <li><a href="index.html">Studio</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="#contact">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:kristianrowii@gmail.com">kristianrowii@gmail.com</a>
-          </li>
-          <li><a href="tel:+639770584724">+63 9770584724</a></li>
-        </ul>
+      <address class="address">
+        <a href="mailto:kristianrowii@gmail.com">infodev@gmail.com</a>
+        <a href="tel:+639770584724">+11(000) 11-11-111</a>
       </address>
     </header>
-    <!-- Main Section -->
-    <main>
-      <body>
-        <section class="buttons">
-          <button class="button-all" type="button">All</button>
-          <button class="button-website" type="button">Web site</button>
-          <button class="button-app" type="button">App</button>
-          <button class="button-design" type="button">Design</button>
-          <button class="button-marketing" type="button">Marketing</button>
-        </section>
 
-        <section class="rowan">
-          <ul class="what-list">
-            <li>
-              <img
-                src="/images/portfolio images/img.png"
-                alt="monitor"
-                width="360"
-                height="300"
-              />
-              <h3>Banking App interface Concept</h3>
+    <!-- Main Section -->
+    <main class="portfolio-main">
+      <section class="portfolio">
+        <ul class="portfolio-list">
+          <li class="filter-list-item">
+            <button type="button" class="button active">All</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="button">Web Site</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="button">App</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="button">Design</button>
+          </li>
+          <li class="filter-list-item">
+            <button type="button" class="button">Marketing</button>
+          </li>
+        </ul>
+
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img1.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
+              <h3>Banking App Interface Concept</h3>
               <p>App</p>
-            </li>
-            <li>
-              <img
-                src="/images/portfolio images/img (1).png"
-                alt="cellphone"
-                width="360"
-                height="300"
-              />
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img2.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
               <h3>Cashless Payment</h3>
               <p>Marketing</p>
-            </li>
-            <li>
-              <img
-                src="/images/portfolio images/img (2).png"
-                alt="holding a cellphone in front of a laptop"
-                width="360"
-                height="300"
-              />
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img3.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
               <h3>Meditation App</h3>
               <p>App</p>
-            </li>
-          </ul>
-        </section>
-
-        <section class="rowto">
-          <ul class="what-list">
-            <li>
-              <img
-                src="/images/portfolio images/img (3).png"
-                alt="monitor"
-                width="360"
-                height="300"
-              />
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img4.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
               <h3>Taxi Service</h3>
               <p>Marketing</p>
-            </li>
-            <li>
-              <img
-                src="/images/portfolio images/img (4).png"
-                alt="cellphone"
-                width="360"
-                height="300"
-              />
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img5.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
               <h3>Screen Illustrations</h3>
               <p>Design</p>
-            </li>
-            <li>
-              <img
-                src="/images/portfolio images/img (5).png"
-                alt="holding a cellphone in front of a laptop"
-                width="360"
-                height="300"
-              />
-              <h3>Online Coursest</h3>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img6.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
+              <h3>Online Courses</h3>
               <p>Marketing</p>
-            </li>
-          </ul>
-        </section>
-
-        <section class="rowtre">
-          <ul class="what-list">
-            <li>
-              <img
-                src="/images/portfolio images/img (6).png"
-                alt="monitor"
-                width="360"
-                height="300"
-              />
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img7.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
               <h3>Instagram Stories Concept</h3>
               <p>Design</p>
-            </li>
-            <li>
-              <img
-                src="/images/portfolio images/img (7).png"
-                alt="cellphone"
-                width="360"
-                height="300"
-              />
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img8.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
               <h3>Organic Food</h3>
               <p>Web Site</p>
-            </li>
-            <li>
-              <img
-                src="./images/portfolio images/img (8).png"
-                alt="holding a cellphone in front of a laptop"
-                width="360"
-                height="300"
-              />
-              <h3>Fresh Coffee</h3>
+            </div>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              src="images/portfolio images/img9.png"
+              alt="Portfolio image"
+              class="list-item-img"
+            />
+            <div class="list-item-content">
+              <h3>Fresh Coffe</h3>
               <p>Web Site</p>
-            </li>
-          </ul>
-        </section>
-      </body>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <!-- Footer Section -->
     <footer>
-      <a href="#goit-markup-hw-01"> <span class="web"> WEB</span></a
-      ><b>STUDIO</b>
-
+      <a href="portfolio.html" class="web">
+        <span class="web-span"> WEB</span><b>STUDIO</b></a
+      >
       <p>
         Increase the flow of customers and<br />
         sales for your business with digital <br />
