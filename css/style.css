@@ -415,7 +415,7 @@ footer {
 }
 
 .footer p {
-    color: var(--tertiary-color);
+    color: white;
     width: 264px;
     line-height: 24px;
     letter-spacing: 0.32px;
