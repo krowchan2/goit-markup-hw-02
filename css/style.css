@@ -47,6 +47,7 @@ header {background-color:  var(--white);
     align-items: center;
     height: 72px;
     padding: 0 10%;
+    font-family: 'Raleway';
 }
 
 .nav {
@@ -58,7 +59,6 @@ header {background-color:  var(--white);
 
 .web {
     color: var(--navyblue);
-    font-family: 'Raleway';
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -415,6 +415,7 @@ main {
 
 
 footer {
+    font-family: 'Raleway';
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -429,7 +430,6 @@ footer {
 
 .footer-web {
     color: var(--white);
-    font-family: 'Raleway';
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
