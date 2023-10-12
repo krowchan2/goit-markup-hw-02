@@ -149,8 +149,7 @@ main {
     font-size: 56px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: 1.44p x;
-    line-height: 65px;
+    letter-spacing: 1.44px;
     text-align: center;
 }
 
@@ -301,6 +300,8 @@ main {
 }
 
 
+
+
 .portfolio-main {
     display: flex;
     justify-content: center;
@@ -381,16 +382,11 @@ main {
     transform: scale(1.02);
 }
 
-.portfolio-list-img-items img {
-    width: 100%;
-    object-fit: cover;
-    border: 1px solid var(--cornflower);
-}
 
 .portfolio-list-img-item img {
     width: 360px;
-        height: 300px;
-        flex-shrink: 0;
+    height: 300px;
+    flex-shrink: 0;
 }
 
 
@@ -415,13 +411,15 @@ main {
 }
 
 .portfolio-list-img-div{
-display: flex;
-padding: 0px 16px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 8px;
-align-self: stretch;
+    padding: 0px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    padding: 32px;
+    display: flex;
+
 }
 
 footer {
